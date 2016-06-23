@@ -90,27 +90,6 @@
                 <styles xmi:type="notation:ShapeStyle" xmi:id="_PMDl-A0jEea-Br5M6iRFqA" fontName="Cantarell" fontHeight="10"/>
                 <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PMDl-Q0jEea-Br5M6iRFqA" x="400" y="30"/>
               </children>
-              <children xmi:type="notation:Node" xmi:id="_elzfsDksEeapJZNta3Rv6Q" type="3009" element="_ekFBYDksEeapJZNta3Rv6Q">
-                <children xmi:type="notation:Node" xmi:id="_el4_QDksEeapJZNta3Rv6Q" type="5004"/>
-                <children xmi:type="notation:Node" xmi:id="_el6NYDksEeapJZNta3Rv6Q" type="7003">
-                  <children xmi:type="notation:Node" xmi:id="_emA7EDksEeapJZNta3Rv6Q" type="3010" element="_ek79ADksEeapJZNta3Rv6Q">
-                    <styles xmi:type="notation:FontStyle" xmi:id="_emA7ETksEeapJZNta3Rv6Q" fontName="Cantarell" fontHeight="10" italic="true"/>
-                    <layoutConstraint xmi:type="notation:Location" xmi:id="_emA7EjksEeapJZNta3Rv6Q"/>
-                  </children>
-                  <children xmi:type="notation:Node" xmi:id="_qBrGEDksEeapJZNta3Rv6Q" type="3010" element="_qBJhoDksEeapJZNta3Rv6Q">
-                    <styles xmi:type="notation:FontStyle" xmi:id="_qBrGETksEeapJZNta3Rv6Q" fontName="Cantarell" fontHeight="10"/>
-                    <layoutConstraint xmi:type="notation:Location" xmi:id="_qBrGEjksEeapJZNta3Rv6Q"/>
-                  </children>
-                  <children xmi:type="notation:Node" xmi:id="_rt2UADksEeapJZNta3Rv6Q" type="3010" element="_rta2MDksEeapJZNta3Rv6Q">
-                    <styles xmi:type="notation:FontStyle" xmi:id="_rt2UATksEeapJZNta3Rv6Q" fontName="Cantarell" fontHeight="10"/>
-                    <layoutConstraint xmi:type="notation:Location" xmi:id="_rt2UAjksEeapJZNta3Rv6Q"/>
-                  </children>
-                  <styles xmi:type="notation:SortingStyle" xmi:id="_el6NYTksEeapJZNta3Rv6Q"/>
-                  <styles xmi:type="notation:FilteringStyle" xmi:id="_el6NYjksEeapJZNta3Rv6Q"/>
-                </children>
-                <styles xmi:type="notation:ShapeStyle" xmi:id="_elzfsTksEeapJZNta3Rv6Q" fontName="Cantarell" fontHeight="10"/>
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_elzfsjksEeapJZNta3Rv6Q" x="205" y="114" width="140" height="50"/>
-              </children>
               <styles xmi:type="notation:SortingStyle" xmi:id="_PL6cAQ0jEea-Br5M6iRFqA"/>
               <styles xmi:type="notation:FilteringStyle" xmi:id="_PL6cAg0jEea-Br5M6iRFqA"/>
             </children>
@@ -596,39 +575,6 @@
               <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.occiware.clouddesigner.occi.design/description/OCCIware.odesign#//@ownedViewpoints[name='OCCI%20Extension']/@ownedRepresentations[name='Extension%20diagram']/@defaultLayer/@containerMappings[name='EC%20EDataType']/@subNodeMappings[name='EC_DataType_InstanceClassName']/@style"/>
             </ownedStyle>
             <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.occiware.clouddesigner.occi.design/description/OCCIware.odesign#//@ownedViewpoints[name='OCCI%20Extension']/@ownedRepresentations[name='Extension%20diagram']/@defaultLayer/@containerMappings[name='EC%20EDataType']/@subNodeMappings[name='EC_DataType_InstanceClassName']"/>
-          </ownedElements>
-        </ownedDiagramElements>
-        <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_ekFBYDksEeapJZNta3Rv6Q" name="Port" width="14" height="5">
-          <target xmi:type="ecore:EDataType" href="http://schemas.ogf.org/occi/core#//@types.3"/>
-          <semanticElements xmi:type="ecore:EDataType" href="http://schemas.ogf.org/occi/core#//@types.3"/>
-          <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_ekFBYTksEeapJZNta3Rv6Q" labelSize="10" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="Liquid" foregroundColor="255,255,255">
-            <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.occiware.clouddesigner.occi.design/description/OCCIware.odesign#//@ownedViewpoints[name='OCCI%20Extension']/@ownedRepresentations[name='Extension%20diagram']/@defaultLayer/@containerMappings[name='EC%20EDataType']/@style"/>
-          </ownedStyle>
-          <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.occiware.clouddesigner.occi.design/description/OCCIware.odesign#//@ownedViewpoints[name='OCCI%20Extension']/@ownedRepresentations[name='Extension%20diagram']/@defaultLayer/@containerMappings[name='EC%20EDataType']"/>
-          <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_ek79ADksEeapJZNta3Rv6Q" name="int">
-            <target xmi:type="ecore:EDataType" href="http://schemas.ogf.org/occi/core#//@types.3"/>
-            <semanticElements xmi:type="ecore:EDataType" href="http://schemas.ogf.org/occi/core#//@types.3"/>
-            <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_ek79ATksEeapJZNta3Rv6Q" labelSize="10" showIcon="false">
-              <labelFormat>italic</labelFormat>
-              <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.occiware.clouddesigner.occi.design/description/OCCIware.odesign#//@ownedViewpoints[name='OCCI%20Extension']/@ownedRepresentations[name='Extension%20diagram']/@defaultLayer/@containerMappings[name='EC%20EDataType']/@subNodeMappings[name='EC_DataType_InstanceClassName']/@style"/>
-            </ownedStyle>
-            <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.occiware.clouddesigner.occi.design/description/OCCIware.odesign#//@ownedViewpoints[name='OCCI%20Extension']/@ownedRepresentations[name='Extension%20diagram']/@defaultLayer/@containerMappings[name='EC%20EDataType']/@subNodeMappings[name='EC_DataType_InstanceClassName']"/>
-          </ownedElements>
-          <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_qBJhoDksEeapJZNta3Rv6Q" name="maxInclusive=65535">
-            <target xmi:type="ecore:EStringToStringMapEntry" href="http://schemas.ogf.org/occi/core#//@types.3/%http:%2F%2F%2Forg%2Feclipse%2Femf%2Fecore%2Futil%2FExtendedMetaData%/@details.0"/>
-            <semanticElements xmi:type="ecore:EStringToStringMapEntry" href="http://schemas.ogf.org/occi/core#//@types.3/%http:%2F%2F%2Forg%2Feclipse%2Femf%2Fecore%2Futil%2FExtendedMetaData%/@details.0"/>
-            <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_qBSrkDksEeapJZNta3Rv6Q" labelSize="10" labelAlignment="LEFT">
-              <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.occiware.clouddesigner.occi.design/description/OCCIware.odesign#//@ownedViewpoints[name='OCCI%20Extension']/@ownedRepresentations[name='Extension%20diagram']/@defaultLayer/@containerMappings[name='EC%20EDataType']/@subNodeMappings[name='EC_DataType%20EStringToStringMapEntry']/@style"/>
-            </ownedStyle>
-            <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.occiware.clouddesigner.occi.design/description/OCCIware.odesign#//@ownedViewpoints[name='OCCI%20Extension']/@ownedRepresentations[name='Extension%20diagram']/@defaultLayer/@containerMappings[name='EC%20EDataType']/@subNodeMappings[name='EC_DataType%20EStringToStringMapEntry']"/>
-          </ownedElements>
-          <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_rta2MDksEeapJZNta3Rv6Q" name="minInclusive=0">
-            <target xmi:type="ecore:EStringToStringMapEntry" href="http://schemas.ogf.org/occi/core#//@types.3/%http:%2F%2F%2Forg%2Feclipse%2Femf%2Fecore%2Futil%2FExtendedMetaData%/@details.1"/>
-            <semanticElements xmi:type="ecore:EStringToStringMapEntry" href="http://schemas.ogf.org/occi/core#//@types.3/%http:%2F%2F%2Forg%2Feclipse%2Femf%2Fecore%2Futil%2FExtendedMetaData%/@details.1"/>
-            <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_rta2MTksEeapJZNta3Rv6Q" labelSize="10" labelAlignment="LEFT">
-              <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.occiware.clouddesigner.occi.design/description/OCCIware.odesign#//@ownedViewpoints[name='OCCI%20Extension']/@ownedRepresentations[name='Extension%20diagram']/@defaultLayer/@containerMappings[name='EC%20EDataType']/@subNodeMappings[name='EC_DataType%20EStringToStringMapEntry']/@style"/>
-            </ownedStyle>
-            <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.occiware.clouddesigner.occi.design/description/OCCIware.odesign#//@ownedViewpoints[name='OCCI%20Extension']/@ownedRepresentations[name='Extension%20diagram']/@defaultLayer/@containerMappings[name='EC%20EDataType']/@subNodeMappings[name='EC_DataType%20EStringToStringMapEntry']"/>
           </ownedElements>
         </ownedDiagramElements>
       </ownedDiagramElements>
