@@ -5,9 +5,6 @@
     <attributes name="host" description="Endpoint hostname or IP">
       <type href="http://schemas.ogf.org/occi/core#//@types.0"/>
     </attributes>
-    <attributes name="port" default="" description="Endpoint port">
-      <type href="http://schemas.ogf.org/occi/core#//@types.2"/>
-    </attributes>
     <parent href="http://schemas.ogf.org/occi/core#//@kinds[term='resource']"/>
   </kinds>
   <kinds term="extension" scheme="http://schemas.ogf.org/occi/catalog#">
@@ -31,30 +28,28 @@
   <kinds term="capability" scheme="http://schemas.ogf.org/occi/catalog#">
     <parent href="http://schemas.ogf.org/occi/core#//@kinds[term='link']"/>
   </kinds>
+  <kinds term="protocol" scheme="http://schemas.ogf.org/occi/catalog#" title="A protocol exposed by the endpoint">
+    <attributes name="port">
+      <type href="http://schemas.ogf.org/occi/core#//@types.2"/>
+    </attributes>
+    <attributes name="scheme" required="true">
+      <type href="http://schemas.ogf.org/occi/core#//@types.0"/>
+    </attributes>
+    <parent href="http://schemas.ogf.org/occi/core#//@kinds[term='link']"/>
+  </kinds>
   <mixins term="occi_version" scheme="http://schemas.ogf.org/occi/catalog#" applies="//@kinds[term='endpoint']"/>
   <mixins term="occi_11" scheme="http://schemas.ogf.org/occi/catalog#" depends="//@mixins[term='occi_version']"/>
   <mixins term="occi_12" scheme="http://schemas.ogf.org/occi/catalog#" depends="//@mixins[term='occi_version']"/>
-  <mixins term="auth" scheme="http://schemas.ogf.org/occi/catalog#" applies="//@kinds[term='endpoint']"/>
+  <mixins term="auth" scheme="http://schemas.ogf.org/occi/catalog#" applies="//@kinds[term='protocol']"/>
   <mixins term="http_basic" scheme="http://schemas.ogf.org/occi/catalog#" depends="//@mixins[term='auth']">
-    <attributes name="realm" required="true">
+    <attributes name="occi.catalog.basic.realm" required="true">
       <type href="http://schemas.ogf.org/occi/core#//@types.0"/>
     </attributes>
   </mixins>
   <mixins term="http_digest" scheme="http://schemas.ogf.org/occi/catalog#" depends="//@mixins[term='auth']">
-    <attributes name="realm" required="true">
+    <attributes name="occi.catalog.digest.realm" required="true">
       <type href="http://schemas.ogf.org/occi/core#//@types.0"/>
     </attributes>
   </mixins>
   <mixins term="OpenID" scheme="http://schemas.ogf.org/occi/catalog#" depends="//@mixins[term='auth']"/>
-  <mixins term="protocol" scheme="http://schemas.ogf.org/occi/catalog#" applies="//@kinds[term='endpoint']"/>
-  <mixins term="http" scheme="http://schemas.ogf.org/occi/catalog#" depends="//@mixins[term='protocol']">
-    <attributes name="port" default="80">
-      <type href="http://schemas.ogf.org/occi/core#//@types.2"/>
-    </attributes>
-  </mixins>
-  <mixins term="https" scheme="http://schemas.ogf.org/occi/catalog#" depends="//@mixins[term='protocol']">
-    <attributes name="port" default="443">
-      <type href="http://schemas.ogf.org/occi/core#//@types.2"/>
-    </attributes>
-  </mixins>
 </occi:Extension>
